@@ -1,40 +1,41 @@
 import { Link } from "react-router-dom";
 
+
 export default function Header() {
     return (
         <div className="wrapper-start">
             <div className="wrapper-inner">
-                <img src="https://static.evand.net/images/organizations/logos/original/940c59562bf11bd4009ceed5477a6086.jpg?x-oss-process=image/resize,h_250" />
+                <img className="w-24 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgRG0dQYL8dorZDNiAS_zNS6TuOLvT_G3Xkc7DIpHtkQ&s" />
                 <div className="buttons">
-                    <Link>
-                        <img src="icons/png/dashboard.png" />
-                        <p>Dashboard</p>
+                    <Link className="flex gap-5 text-center">
+                        <img className="w-8" src="icons/png/dashboard.png" />
+                        <p className="text-black capitalize text-base">Dashboard</p>
                     </Link>
-                    <Link>
-                        <img src="icons/png/projects.png" />
-                        <p>Projects</p>
+                    <Link className="flex gap-5 text-center">
+                        <img className="w-8 " src="icons/png/projects.png" />
+                        <p className="text-black capitalize text-base">Projects</p>
                     </Link>
-                    <Link>
-                        <img src="icons/png/bookmark.png" />
-                        <p>Calender</p>
+                    <Link className="flex gap-5 text-center">
+                        <img className="w-8 " src="icons/png/bookmark.png" />
+                        <p className="text-black capitalize text-base">Calender</p>
                     </Link>
-                    <Link>
-                        <img src="icons/png/vacation.png" />
-                        <p>vacation</p>
+                    <Link className="flex gap-5 text-center">
+                        <img className="w-8 " src="icons/png/vacation.png" />
+                        <p className="text-black capitalize text-base">vacation</p>
                     </Link>
-                    <Link>
-                        <img src="icons/png/messenger.png" />
-                        <p>maeseger</p>
+                    <Link className="flex gap-5 text-center">
+                        <img className="w-8 " src="icons/png/messenger.png" />
+                        <p className="text-black capitalize text-base">maeseger</p>
                     </Link>
                 </div>
                 <div className="bottom-wrapper">
-                    <Link>
-                        <img src="icons/png/messenger.png" />
-                        <p>Support</p>
+                    <Link className="flex">
+                        <img className="w-8 " src="icons/png/messenger.png" />
+                        <p >Support</p>
                     </Link>
-                    <Link>
-                        <img src="icons/png/LogOut.png" />
-                        <p>LogOut</p>
+                    <Link className="flex">
+                        <img className="w-8 " src="icons/png/LogOut.png" />
+                        <p className="text-black">LogOut</p>
                     </Link>
                 </div>
             </div>
