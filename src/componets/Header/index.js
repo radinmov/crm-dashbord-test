@@ -4,8 +4,8 @@ import { Style } from "./Style";
 
 export default function Header() {
     return (
-        <Style >
-            <div className="wrapper-start w-48 h-dvh bg-white rounded-xl ">
+        <Style className="flex">
+            <div className="wrapper-start w-48 h-dvh bg-white flex ">
                 <div className="wrapper-inner">
                     <img alt="alborz_logo" className="w-24 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgRG0dQYL8dorZDNiAS_zNS6TuOLvT_G3Xkc7DIpHtkQ&s" />
                     <div className="buttons pt-14 p-3">
