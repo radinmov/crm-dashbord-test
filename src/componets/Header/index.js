@@ -30,13 +30,13 @@ export default function Header() {
                             <p className="text-black capitalize text-lg">maeseger</p>
                         </Link>
                     </div>
-                    <div className="bottom-wrapper pt-48">
+                    <div className="bottom-wrapper pt-48 p-1.5">
                         <Link className="flex items-center gap-5 text-center  w-44 h-14 bg-blue-500  rounded-xl">
                             <img alt="img-1" className="w-8 " src="icons/png/messenger.png" />
                             <p >Support</p>
                         </Link>
-                        <Link className="flex  gap-2 text-center pt-5">
-                            <img alt="img-1" className="w-8 " src="icons/png/LogOut.png" />
+                        <Link className="flex  gap-2  text-center pt-5">
+                            <img alt="img-1" className="w-8" src="icons/png/LogOut.png" />
                             <p className="text-black">LogOut</p>
                         </Link>
                     </div>

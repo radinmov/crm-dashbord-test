@@ -5,8 +5,8 @@ import { Style } from "./Style";
 export default function Home() {
   const title = useTitle("Home(Dashboard)");
   return (
-      <Style className="flex">
-        <Header />
+    <Style className="flex">
+      <Header />
       <div className="wrapper_home_start w-full">
         <div className="wrapper_home_start">
           <div className="upper_start flex justify-between p-4">
@@ -57,14 +57,14 @@ export default function Home() {
             </div>
           </div>
           <div className="started_data w-full">
-            <div className="started_left w-3/5 h-[600px]  text-black bg-white">
-              <div className="upper_txt flex justify-between">
-                <p>WorkLoad</p>
-                <p className="text-sky-500">View all</p>
+            <div className="started_left w-3/5 h-[540px] rounded-3xl  text-black bg-white">
+              <div className="upper_txt flex justify-between p-5">
+                <p className="text-xl font-bold">WorkLoad</p>
+                <p className="text-sky-500 text-lg">View all</p>
               </div>
               <div className="persons">
-                <div className="persons_inner flex gap-3  flex-wrap ">
-                  <div className="person  w-[210px] h-[210px] bg-cyan-500 ">
+                <div className="persons_inner flex gap-3  flex-wrap justify-center align-center">
+                  <div className="person flex items-center gap-1.5 flex-col  w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3  ">
                     <img
                       alt="person_img"
                       className="w-20 h-20 bg-slate-400 rounded-full"
@@ -72,9 +72,11 @@ export default function Home() {
                     />
                     <p>jake ali</p>
                     <p>Ui /Ux Designer</p>
-                    <button>junior</button>
+                    <button className="btn_for_persona w-[60px] text-slate-700">
+                      junior
+                    </button>
                   </div>
-                  <div className="person w-[210px] h-[210px] bg-cyan-500 ">
+                  <div className="person flex items-center gap-1.5 flex-col w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3 ">
                     <img
                       alt="person_img"
                       className="w-20 h-20 bg-slate-400 rounded-full"
@@ -82,9 +84,11 @@ export default function Home() {
                     />
                     <p>jake ali</p>
                     <p>Ui /Ux Designer</p>
-                    <button>junior</button>
+                    <button className="btn_for_persona w-[60px] text-slate-700">
+                      junior
+                    </button>
                   </div>
-                  <div className="person w-[210px] h-[210px] bg-cyan-500 ">
+                  <div className="person flex items-center gap-1.5 flex-col w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3 ">
                     <img
                       alt="person_img"
                       className="w-20 h-20 bg-slate-400 rounded-full"
@@ -92,9 +96,11 @@ export default function Home() {
                     />
                     <p>jake ali</p>
                     <p>Ui /Ux Designer</p>
-                    <button>junior</button>
+                    <button className="btn_for_persona w-[60px] text-slate-700">
+                      junior
+                    </button>
                   </div>
-                  <div className="person w-[210px] h-[210px] bg-cyan-500 ">
+                  <div className="person flex items-center gap-1.5 flex-col w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3 ">
                     <img
                       alt="person_img"
                       className="w-20 h-20 bg-slate-400 rounded-full"
@@ -102,9 +108,11 @@ export default function Home() {
                     />
                     <p>jake ali</p>
                     <p>Ui /Ux Designer</p>
-                    <button>junior</button>
+                    <button className="btn_for_persona w-[60px] text-slate-700">
+                      junior
+                    </button>
                   </div>
-                  <div className="person w-[210px] h-[210px] bg-cyan-500 ">
+                  <div className="person flex items-center gap-1.5 flex-col w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3 ">
                     <img
                       alt="person_img"
                       className="w-20 h-20 bg-slate-400 rounded-full"
@@ -112,9 +120,11 @@ export default function Home() {
                     />
                     <p>jake ali</p>
                     <p>Ui /Ux Designer</p>
-                    <button>junior</button>
+                    <button className="btn_for_persona w-[60px] text-slate-700">
+                      junior
+                    </button>
                   </div>
-                  <div className="person w-[210px] h-[210px] bg-cyan-500 ">
+                  <div className="person flex items-center gap-1.5 flex-col w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3 ">
                     <img
                       alt="person_img"
                       className="w-20 h-20 bg-slate-400 rounded-full"
@@ -122,9 +132,11 @@ export default function Home() {
                     />
                     <p>jake ali</p>
                     <p>Ui /Ux Designer</p>
-                    <button>junior</button>
+                    <button className="btn_for_persona w-[60px] text-slate-700">
+                      junior
+                    </button>
                   </div>
-                  <div className="person w-[210px] h-[210px] bg-cyan-500 ">
+                  <div className="person flex items-center gap-1.5 flex-col  w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3 ">
                     <img
                       alt="person_img"
                       className="w-20 h-20 bg-slate-400 rounded-full"
@@ -132,9 +144,11 @@ export default function Home() {
                     />
                     <p>jake ali</p>
                     <p>Ui /Ux Designer</p>
-                    <button>junior</button>
+                    <button className="btn_for_persona w-[60px] text-slate-700">
+                      junior
+                    </button>
                   </div>
-                  <div className="person w-[210px] h-[210px] bg-cyan-500 ">
+                  <div className="person flex items-center gap-1.5 flex-col  w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3 ">
                     <img
                       alt="person_img"
                       className="w-20 h-20 bg-slate-400 rounded-full"
@@ -142,7 +156,9 @@ export default function Home() {
                     />
                     <p>jake ali</p>
                     <p>Ui /Ux Designer</p>
-                    <button>junior</button>
+                    <button className="btn_for_persona w-[60px] text-slate-700">
+                      junior
+                    </button>
                   </div>
                 </div>
               </div>
