@@ -56,7 +56,7 @@ export default function Home() {
               <p>2024/3/16</p>
             </div>
           </div>
-          <div className="started_data w-full">
+          <div className="started_data w-full flex gap-12 m-12">
             <div className="started_left w-3/5 h-[540px] rounded-3xl  text-black bg-white">
               <div className="upper_txt flex justify-between p-5">
                 <p className="text-xl font-bold">WorkLoad</p>
@@ -163,38 +163,46 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="started_right">
-              <div className="upper_txt">
-                <p>Nereast Event</p>
-                <p>View all</p>
+            <div className="started_right  w-1/4 bg-sky-300 rounded-3xl">
+              <div className="upper_txt w-full flex justify-between p-5">
+                <p className="text-xl font-bold">Nereast Event</p>
+                <p className="text-sky-500 text-lg">View all</p>
               </div>
               <div className="nearst">
-                <div className="near">
-                  <div className="up">
+                <div className="near border-l-4 border-sky-400">
+                  <div className="up font-bold text-black">
                     <p>Anna"s Birthday</p>
                   </div>
-                  <div className="bottom">
+                  <div className="bottom flex justify-between text-slate-500">
                     <p>Today | 6:00 pm</p>
-                  </div>
-                </div>
-                <div className="near">
-                  <div className="up">
-                    <p>Anna"s Birthday</p>
-                  </div>
-                  <div className="bottom">
-                    <p>Today | 6:00 pm</p>
-                    <div className="clock_time">
-                      <img alt="clock_icon" src="" />
-                      <p>4h</p>
+                    <div className="clock_time w-[50px] bg-slate-500 flex items-center gap-1 rounded-lg">
+                        <img alt="clock_icon" src="icons/png/clock.png" />
+                        <p className="text-white">4h</p>
                     </div>
                   </div>
                 </div>
-                <div className="near">
-                  <div className="up">
+                <div className="near border-l-4 border-fuchsia-500">
+                  <div className="up font-bold text-black">
                     <p>Anna"s Birthday</p>
                   </div>
-                  <div className="bottom">
+                  <div className="bottom flex justify-between  text-slate-500">
                     <p>Today | 6:00 pm</p>
+                    <div className="clock_time w-[50px] bg-slate-500 flex items-center gap-1 rounded-lg">
+                      <img alt="clock_icon" src="icons/png/clock.png" />
+                      <p className="text-white">4h</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="near border-l-4 border-fuchsia-500">
+                  <div className="up font-bold text-black">
+                    <p>Anna"s Birthday</p>
+                  </div>
+                  <div className="bottom flex justify-between justify-between text-slate-500">
+                    <p>Today | 6:00 pm</p>
+                    <div className="clock_time w-[50px] bg-slate-500 flex items-center gap-1 rounded-lg">
+                        <img alt="clock_icon" src="icons/png/clock.png" />
+                        <p className="text-white">4h</p>
+                    </div>
                   </div>
                 </div>
               </div>
