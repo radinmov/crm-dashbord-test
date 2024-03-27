@@ -184,6 +184,20 @@ export default function Home() {
               </div>
             </div>
           </div>
+        <div className="bottom_starter">
+          <div className="bottom_start_inner">
+            <div className="bottom_start_left">
+              <div className="bottom_left_inner">
+                <div className="upper_txt">
+                  <p>Projects</p>
+                  <p>View all</p>
+                </div>
+              </div>
+            </div>
+            <div className="bottom_start_right"></div>
+          </div>
+        </div>
+
         </div>
       </div>
     </Style>
