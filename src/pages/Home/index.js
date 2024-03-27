@@ -184,20 +184,102 @@ export default function Home() {
               </div>
             </div>
           </div>
-        <div className="bottom_starter">
-          <div className="bottom_start_inner">
-            <div className="bottom_start_left">
-              <div className="bottom_left_inner">
-                <div className="upper_txt">
-                  <p>Projects</p>
-                  <p>View all</p>
+          <div className="bottom_starter">
+            <div className="bottom_start_inner w-full m-12">
+              <div className="bottom_start_left w-3/5">
+                <div className="bottom_left_inner">
+                  <div className="upper_txt flex justify-between p-5">
+                    <p className="text-black font-extrabold text-xl">
+                      Projects
+                    </p>
+                    <p className="text-sky-500 ">View all</p>
+                  </div>
+                  <div className="bottom_left flex">
+                    <div className="left">
+                      <div className="left_data">
+                        <div className="up">
+                          <img alt="data_icon" src="https://img.freepik.com/premium-photo/3d-icon-polaroid-camera-3d-illustration-3d-element-3d-rendering-graphic-elements-design_808921-654.jpg?w=1380" />
+                          <p></p>
+                        </div>
+                        <div className="bottom flex text-black">
+                          <img alt="calend_icon" src="icons/png/calender.png" />
+                          <p>2030/12/32 | 12:32</p>
+                        </div>
+                      </div>
+                      <div className="left_data">
+                        <div className="up">
+                          <img alt="data_icon" src="https://img.freepik.com/free-photo/red-roses-by-window-brought-touch-romance-room-generative-ai_8829-2925.jpg?w=900&t=st=1711574967~exp=1711575567~hmac=f43e3697deb16ff116ed156e2e59c665c5a93d645a5038e66895838ea75bf643" />
+                          <p></p>
+                        </div>
+                        <div className="bottom flex text-black">
+                          <img alt="calend_icon" src="icons/png/calender.png" />
+                          <p>2030/12/32 | 12:32</p>
+                        </div>
+                      </div>
+                      <div className="left_data">
+                        <div className="up">
+                          <img alt="data_icon" src="https://img.freepik.com/free-photo/picture-with-drawing-man-s-face_1122-1031.jpg?t=st=1711575125~exp=1711578725~hmac=b827b81a7e052f3177b2edd6d8177d0b89103e12bd75d2841291acf146e59fff&w=900" />
+                          <p></p>
+                        </div>
+                        <div className="bottom flex text-black">
+                          <img alt="calend_icon" src="icons/png/calender.png" />
+                          <p>2030/12/32 | 12:32</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="right">
+                      <div className="right_data">
+                        <div className="up">
+                          <p>Projects Data</p>
+                        </div>
+                        <div className="bottom">
+                          <div className="data_inner_1">
+                            <p>All Taksks</p>
+                            <span>34</span>
+                          </div>
+                          <div className="data_inner_2">
+                            <p>Active Taks</p>
+                            <span>13</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="right_data">
+                        <div className="up">
+                          <p>Projects Data</p>
+                        </div>
+                        <div className="bottom">
+                          <div className="data_inner_1">
+                            <p>All Taksks</p>
+                            <span>34</span>
+                          </div>
+                          <div className="data_inner_2">
+                            <p>Active Taks</p>
+                            <span>13</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="right_data">
+                        <div className="up">
+                          <p>Projects Data</p>
+                        </div>
+                        <div className="bottom">
+                          <div className="data_inner_1">
+                            <p>All Taksks</p>
+                            <span>34</span>
+                          </div>
+                          <div className="data_inner_2">
+                            <p>Active Taks</p>
+                            <span>13</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <div className="bottom_start_right"></div>
             </div>
-            <div className="bottom_start_right"></div>
           </div>
-        </div>
-
         </div>
       </div>
     </Style>
