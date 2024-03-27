@@ -136,52 +136,28 @@ export default function Home() {
                       junior
                     </button>
                   </div>
-                  <div className="person flex items-center gap-1.5 flex-col  w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3 ">
-                    <img
-                      alt="person_img"
-                      className="w-20 h-20 bg-slate-400 rounded-full"
-                      src="https://img.freepik.com/premium-photo/stylish-young-guy-wearing-eyeglasses-posing-isolated-yellow-background_116547-89822.jpg?size=626&ext=jpg&ga=GA1.2.1892136250.1702583252&semt=sph"
-                    />
-                    <p>jake ali</p>
-                    <p>Ui /Ux Designer</p>
-                    <button className="btn_for_persona w-[60px] text-slate-700">
-                      junior
-                    </button>
-                  </div>
-                  <div className="person flex items-center gap-1.5 flex-col  w-[210px] h-[210px] rounded-xl bg-cyan-400 p-3 ">
-                    <img
-                      alt="person_img"
-                      className="w-20 h-20 bg-slate-400 rounded-full"
-                      src="https://img.freepik.com/premium-photo/portrait-young-afro-american-man_58466-9566.jpg?size=626&ext=jpg&ga=GA1.1.1892136250.1702583252&semt=sph"
-                    />
-                    <p>jake ali</p>
-                    <p>Ui /Ux Designer</p>
-                    <button className="btn_for_persona w-[60px] text-slate-700">
-                      junior
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
-            <div className="started_right  w-1/4 bg-sky-300 rounded-3xl">
+            <div className="started_right  w-1/4 bg-sky-400 rounded-3xl">
               <div className="upper_txt w-full flex justify-between p-5">
                 <p className="text-xl font-bold">Nereast Event</p>
                 <p className="text-sky-500 text-lg">View all</p>
               </div>
-              <div className="nearst">
-                <div className="near border-l-4 border-sky-400">
+              <div className="nearst p-3 flex-col flex align-center">
+                <div className="near m-2 flex flex-col justify-evenly border-l-4 h-32 border-gray-950">
                   <div className="up font-bold text-black">
                     <p>Anna"s Birthday</p>
                   </div>
                   <div className="bottom flex justify-between text-slate-500">
                     <p>Today | 6:00 pm</p>
                     <div className="clock_time w-[50px] bg-slate-500 flex items-center gap-1 rounded-lg">
-                        <img alt="clock_icon" src="icons/png/clock.png" />
-                        <p className="text-white">4h</p>
+                      <img alt="clock_icon" src="icons/png/clock.png" />
+                      <p className="text-white">4h</p>
                     </div>
                   </div>
                 </div>
-                <div className="near border-l-4 border-fuchsia-500">
+                <div className="near m-2 flex flex-col justify-evenly border-l-4 h-32 border-fuchsia-500">
                   <div className="up font-bold text-black">
                     <p>Anna"s Birthday</p>
                   </div>
@@ -193,15 +169,15 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="near border-l-4 border-fuchsia-500">
+                <div className="near m-2 flex flex-col justify-evenly border-l-4 h-32 border-fuchsia-500">
                   <div className="up font-bold text-black">
                     <p>Anna"s Birthday</p>
                   </div>
                   <div className="bottom flex justify-between justify-between text-slate-500">
                     <p>Today | 6:00 pm</p>
                     <div className="clock_time w-[50px] bg-slate-500 flex items-center gap-1 rounded-lg">
-                        <img alt="clock_icon" src="icons/png/clock.png" />
-                        <p className="text-white">4h</p>
+                      <img alt="clock_icon" src="icons/png/clock.png" />
+                      <p className="text-white">4h</p>
                     </div>
                   </div>
                 </div>
