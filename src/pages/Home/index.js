@@ -71,7 +71,7 @@ export default function Home() {
                       src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&ga=GA1.1.1892136250.1702583252&semt=sph"
                     />
                     <p>jake ali</p>
-                    <p>Ui /Ux Designer</p>
+                    <p>Ui/Ux Designer</p>
                     <button className="btn_for_persona w-[60px] text-slate-700">
                       junior
                     </button>
@@ -83,7 +83,7 @@ export default function Home() {
                       src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.1892136250.1702583252&semt=sph"
                     />
                     <p>jake ali</p>
-                    <p>Ui /Ux Designer</p>
+                    <p>Ui/Ux Designer</p>
                     <button className="btn_for_persona w-[60px] text-slate-700">
                       junior
                     </button>
@@ -95,7 +95,7 @@ export default function Home() {
                       src="https://img.freepik.com/free-photo/happiness-wellbeing-confidence-concept-cheerful-attractive-african-american-woman-curly-haircut-cross-arms-chest-self-assured-powerful-pose-smiling-determined-wear-yellow-sweater_176420-35063.jpg?size=626&ext=jpg&ga=GA1.1.1892136250.1702583252&semt=sph"
                     />
                     <p>jake ali</p>
-                    <p>Ui /Ux Designer</p>
+                    <p>Ui/Ux Designer</p>
                     <button className="btn_for_persona w-[60px] text-slate-700">
                       junior
                     </button>
@@ -107,7 +107,7 @@ export default function Home() {
                       src="https://img.freepik.com/free-photo/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university_273609-1270.jpg?size=626&ext=jpg&ga=GA1.1.1892136250.1702583252&semt=sph"
                     />
                     <p>jake ali</p>
-                    <p>Ui /Ux Designer</p>
+                    <p>Ui/Ux Designer</p>
                     <button className="btn_for_persona w-[60px] text-slate-700">
                       junior
                     </button>
@@ -131,7 +131,7 @@ export default function Home() {
                       src="https://img.freepik.com/free-psd/portrait-young-teenage-girl_23-2150163958.jpg?size=626&ext=jpg&ga=GA1.2.1892136250.1702583252&semt=sph"
                     />
                     <p>jake ali</p>
-                    <p>Ui /Ux Designer</p>
+                    <p>Ui/Ux Designer</p>
                     <button className="btn_for_persona w-[60px] text-slate-700">
                       junior
                     </button>
@@ -147,7 +147,7 @@ export default function Home() {
               <div className="nearst p-3 flex-col flex align-center">
                 <div className="near m-2 flex flex-col justify-evenly border-l-4 h-32 border-gray-950">
                   <div className="up font-bold text-black">
-                    <p>Anna"s Birthday</p>
+                    <p>Anna's Birthday</p>
                   </div>
                   <div className="bottom flex justify-between text-slate-500">
                     <p>Today | 6:00 pm</p>
@@ -195,40 +195,40 @@ export default function Home() {
                     <p className="text-sky-500 font-extrabold text-lg">View all</p>
                   </div>
                   <div className="bottom_left w-full flex">
-                    <div className="left w-6/12">
-                      <div className="left_data   bg-white  w-full ">
+                    <div className="left p-1 w-6/12 text-black">
+                      <div className="left_data  mt-3.5 bg-white h-[125px] rounded-md  w-full">
                         <div className="up flex">
-                          <img  alt="data_icon" className="w-[65px] rounded-lg h-[60px]" src="https://img.freepik.com/premium-photo/3d-icon-polaroid-camera-3d-illustration-3d-element-3d-rendering-graphic-elements-design_808921-654.jpg?w=1380" />
+                          <img alt="data_icon" className="w-[65px] rounded-lg h-[60px]" src="https://img.freepik.com/premium-photo/3d-icon-polaroid-camera-3d-illustration-3d-element-3d-rendering-graphic-elements-design_808921-654.jpg?w=1380" />
                           <div className="texts" >
-                          <span className="text-stone-500">89257829572098</span>
-                          <p className="text-black">Medical App(ios Navite)</p>
-                            </div>
+                            <span className="text-stone-500">89257829572098</span>
+                            <p>Medical App(ios Navite)</p>
+                          </div>
                         </div>
                         <div className="bottom flex text-black">
                           <img className="w-[20px]" alt="calend_icon" src="icons/png/calender.png" />
                           <p>2030/12/32 | 12:32</p>
                         </div>
                       </div>
-                      <div className="left_data  bg-white w-full">
+                      <div className="left_data  mt-3.5 bg-white h-[125px] rounded-md  w-full">
                         <div className="up flex">
                           <img alt="data_icon" className="w-[65px] rounded-lg h-[60px]" src="https://img.freepik.com/free-photo/red-roses-by-window-brought-touch-romance-room-generative-ai_8829-2925.jpg?w=900&t=st=1711574967~exp=1711575567~hmac=f43e3697deb16ff116ed156e2e59c665c5a93d645a5038e66895838ea75bf643" />
                           <div className="texts" >
-                          <span className="text-stone-500">89257829572098</span>
-                          <p className="text-black">Food Delivery Service</p>
-                            </div>
+                            <span className="text-stone-500">89257829572098</span>
+                            <p>Food Delivery Service</p>
+                          </div>
                         </div>
                         <div className="bottom flex text-black">
                           <img className="w-[20px]" alt="calend_icon" src="icons/png/calender.png" />
                           <p>2030/12/32 | 12:32</p>
                         </div>
                       </div>
-                      <div className="left_data  bg-white w-full">
+                      <div className="left_data  mt-3.5 bg-white h-[125px] rounded-md  w-full">
                         <div className="up flex ">
                           <img alt="data_icon" className="w-[65px] rounded-lg h-[60px]" src="https://img.freepik.com/free-photo/picture-with-drawing-man-s-face_1122-1031.jpg?t=st=1711575125~exp=1711578725~hmac=b827b81a7e052f3177b2edd6d8177d0b89103e12bd75d2841291acf146e59fff&w=900" />
                           <div className="texts" >
-                          <span className="text-stone-500">89257829572098</span>
-                          <p className="text-black">Food deliverry Service </p>
-                            </div>
+                            <span className="text-stone-500">89257829572098</span>
+                            <p>Food deliverry Service </p>
+                          </div>
                         </div>
                         <div className="bottom flex text-black">
                           <img className="w-[20px]" alt="calend_icon" src="icons/png/calender.png" />
@@ -236,48 +236,48 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="right w-6/12">
-                      <div className="right_data w-full  bg-white ">
+                    <div className="right w-6/12 text-black p-1">
+                      <div className="right_data mt-3.5 bg-white h-[125px] rounded-md ">
                         <div className="up">
                           <p>Projects Data</p>
                         </div>
                         <div className="bottom">
                           <div className="data_inner_1">
-                            <p>All Taksks</p>
+                            <p className="text-stone-500">All Taksks</p>
                             <span>34</span>
                           </div>
                           <div className="data_inner_2">
-                            <p>Active Taks</p>
+                            <p className="text-stone-500">Active Taks</p>
                             <span>13</span>
                           </div>
                         </div>
                       </div>
-                      <div className="right_data bg-white ">
+                      <div className="right_data mt-3.5 bg-white h-[125px] rounded-md">
                         <div className="up">
                           <p>Projects Data</p>
                         </div>
                         <div className="bottom">
                           <div className="data_inner_1">
-                            <p>All Taksks</p>
+                            <p className="text-stone-500">All Taksks</p>
                             <span>34</span>
                           </div>
                           <div className="data_inner_2">
-                            <p>Active Taks</p>
+                            <p className="text-stone-500">Active Taks</p>
                             <span>13</span>
                           </div>
                         </div>
                       </div>
-                      <div className="right_data bg-white ">
+                      <div className="right_data mt-3.5 bg-white h-[125px] rounded-md">
                         <div className="up">
                           <p>Projects Data</p>
                         </div>
                         <div className="bottom">
                           <div className="data_inner_1">
-                            <p>All Taksks</p>
+                            <p className="text-stone-500">All Taksks</p>
                             <span>34</span>
                           </div>
                           <div className="data_inner_2">
-                            <p>Active Taks</p>
+                            <p className="text-stone-500">Active Taks</p>
                             <span>13</span>
                           </div>
                         </div>
