@@ -5,7 +5,7 @@ import { Style } from "./Style";
 export default function Home() {
   const title = useTitle("Home(Dashboard)");
   return (
-    <Style className="flex">
+    <Style className="flexc">
       <Header />
       <div className="wrapper_home_start w-full">
         <div className="wrapper_home_start">
@@ -36,7 +36,7 @@ export default function Home() {
                   className="h-10 w-10"
                   src="icons/png/avatar.png"
                 />
-                <p className="text-black p-1.5">jake moloeikoe </p>
+                <p className="text-black p-1.5">jake moloeikoe</p>
               </div>
             </div>
           </div>
@@ -171,7 +171,7 @@ export default function Home() {
                 </div>
                 <div className="near m-2 flex flex-col justify-evenly border-l-4 h-32 border-fuchsia-500">
                   <div className="up font-bold text-black">
-                    <p>Anna"s Birthday</p>
+                    <p>Anna's Birthday</p>
                   </div>
                   <div className="bottom flex justify-between justify-between text-slate-500">
                     <p>Today | 6:00 pm</p>
@@ -197,40 +197,40 @@ export default function Home() {
                   <div className="bottom_left w-full flex">
                     <div className="left p-1 w-6/12 text-black">
                       <div className="left_data  mt-3.5 bg-white h-[125px] rounded-md  w-full">
-                        <div className="up flex">
-                          <img alt="data_icon" className="w-[65px] rounded-lg h-[60px]" src="https://img.freepik.com/premium-photo/3d-icon-polaroid-camera-3d-illustration-3d-element-3d-rendering-graphic-elements-design_808921-654.jpg?w=1380" />
+                        <div className="up flex p-4">
+                          <img alt="data_icon" className="w-[65px] rounded-lg m-1 border border-sky-500  h-[60px]" src="https://img.freepik.com/premium-photo/3d-icon-polaroid-camera-3d-illustration-3d-element-3d-rendering-graphic-elements-design_808921-654.jpg?w=1380" />
                           <div className="texts" >
-                            <span className="text-stone-500">89257829572098</span>
-                            <p>Medical App(ios Navite)</p>
+                            <span className="text-stone-500">892578295s</span>
+                            <p className="font-bold text-lg">Medical App(ios Navite)</p>
                           </div>
                         </div>
-                        <div className="bottom flex text-black">
+                        <div className="bottom flex pb-1 ml-2 text-black">
                           <img className="w-[20px]" alt="calend_icon" src="icons/png/calender.png" />
                           <p>2030/12/32 | 12:32</p>
                         </div>
                       </div>
                       <div className="left_data  mt-3.5 bg-white h-[125px] rounded-md  w-full">
-                        <div className="up flex">
-                          <img alt="data_icon" className="w-[65px] rounded-lg h-[60px]" src="https://img.freepik.com/free-photo/red-roses-by-window-brought-touch-romance-room-generative-ai_8829-2925.jpg?w=900&t=st=1711574967~exp=1711575567~hmac=f43e3697deb16ff116ed156e2e59c665c5a93d645a5038e66895838ea75bf643" />
+                        <div className="up flex p-4">
+                          <img alt="data_icon" className="w-[65px] rounded-lg m-1  h-[60px]" src="https://img.freepik.com/free-photo/red-roses-by-window-brought-touch-romance-room-generative-ai_8829-2925.jpg?w=900&t=st=1711574967~exp=1711575567~hmac=f43e3697deb16ff116ed156e2e59c665c5a93d645a5038e66895838ea75bf643" />
                           <div className="texts" >
-                            <span className="text-stone-500">89257829572098</span>
-                            <p>Food Delivery Service</p>
+                            <span className="text-stone-500">892578295s</span>
+                            <p className="font-bold text-lg">Food Delivery Service</p>
                           </div>
                         </div>
-                        <div className="bottom flex text-black">
+                        <div className="bottom flex pb-1 ml-2 text-black">
                           <img className="w-[20px]" alt="calend_icon" src="icons/png/calender.png" />
                           <p>2030/12/32 | 12:32</p>
                         </div>
                       </div>
                       <div className="left_data  mt-3.5 bg-white h-[125px] rounded-md  w-full">
-                        <div className="up flex ">
-                          <img alt="data_icon" className="w-[65px] rounded-lg h-[60px]" src="https://img.freepik.com/free-photo/picture-with-drawing-man-s-face_1122-1031.jpg?t=st=1711575125~exp=1711578725~hmac=b827b81a7e052f3177b2edd6d8177d0b89103e12bd75d2841291acf146e59fff&w=900" />
+                        <div className="up flex  p-4">
+                          <img alt="data_icon" className="w-[65px] rounded-lg  m-1 h-[60px]" src="https://img.freepik.com/free-photo/picture-with-drawing-man-s-face_1122-1031.jpg?t=st=1711575125~exp=1711578725~hmac=b827b81a7e052f3177b2edd6d8177d0b89103e12bd75d2841291acf146e59fff&w=900" />
                           <div className="texts" >
-                            <span className="text-stone-500">89257829572098</span>
-                            <p>Food deliverry Service </p>
+                            <span className="text-stone-500">892578295s</span>
+                            <p className="font-bold text-lg">Food deliverry Service </p>
                           </div>
                         </div>
-                        <div className="bottom flex text-black">
+                        <div className="bottom flex pb-1 ml-2 text-black">
                           <img className="w-[20px]" alt="calend_icon" src="icons/png/calender.png" />
                           <p>2030/12/32 | 12:32</p>
                         </div>
@@ -239,46 +239,46 @@ export default function Home() {
                     <div className="right w-6/12 text-black p-1">
                       <div className="right_data mt-3.5 bg-white h-[125px] rounded-md ">
                         <div className="up">
-                          <p>Projects Data</p>
+                          <p className="font-bold text-xl p-3 ">Projects Data</p>
                         </div>
-                        <div className="bottom">
-                          <div className="data_inner_1">
+                        <div className="bottom flex p-4 ">
+                          <div className="data_inner_1 p-3">
                             <p className="text-stone-500">All Taksks</p>
-                            <span>34</span>
+                            <span className="font-bold">34</span>
                           </div>
-                          <div className="data_inner_2">
+                          <div className="data_inner_2 p-3">
                             <p className="text-stone-500">Active Taks</p>
-                            <span>13</span>
+                            <span className="font-bold">13</span>
                           </div>
                         </div>
                       </div>
                       <div className="right_data mt-3.5 bg-white h-[125px] rounded-md">
                         <div className="up">
-                          <p>Projects Data</p>
+                          <p className="font-bold text-xl p-3 ">Projects Data</p>
                         </div>
-                        <div className="bottom">
-                          <div className="data_inner_1">
+                        <div className="bottom flex p-4">
+                          <div className="data_inner_1 p-3">
                             <p className="text-stone-500">All Taksks</p>
-                            <span>34</span>
+                            <span className="font-bold">34</span>
                           </div>
-                          <div className="data_inner_2">
+                          <div className="data_inner_2 p-3">
                             <p className="text-stone-500">Active Taks</p>
-                            <span>13</span>
+                            <span className="font-bold">13</span>
                           </div>
                         </div>
                       </div>
                       <div className="right_data mt-3.5 bg-white h-[125px] rounded-md">
                         <div className="up">
-                          <p>Projects Data</p>
+                          <p className="font-bold text-xl p-3 ">Projects Data</p>
                         </div>
-                        <div className="bottom">
-                          <div className="data_inner_1">
+                        <div className="bottom flex p-4">
+                          <div className="data_inner_1 p-3">
                             <p className="text-stone-500">All Taksks</p>
-                            <span>34</span>
+                            <span className="font-bold">34</span>
                           </div>
-                          <div className="data_inner_2">
+                          <div className="data_inner_2 p-3">
                             <p className="text-stone-500">Active Taks</p>
-                            <span>13</span>
+                            <span className="font-bold">13</span>
                           </div>
                         </div>
                       </div>
