@@ -286,7 +286,24 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="bottom_start_right"></div>
+              <div className="bottom_start_right">
+                <div className="right_start">
+                  <div className="right_inner">
+                    <div className="upper_txt_start">
+                      <p className="text-black font-bold">Activity Stream</p>
+                    </div>
+                    <div className="profile">
+                      <img alt="prof_photo" src="" />
+                      <p>Oscar Heorway</p>
+                    </div>
+                    <div className="upload">
+                      <img alt="downaload" src="" />
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
