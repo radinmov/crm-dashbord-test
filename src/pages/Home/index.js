@@ -185,53 +185,85 @@ export default function Home() {
             </div>
           </div>
           <div className="bottom_starter">
-            <div className="bottom_start_inner w-full m-12">
+            <div className="bottom_start_inner flex w-full m-12">
               <div className="bottom_start_left w-3/5">
                 <div className="bottom_left_inner">
                   <div className="upper_txt flex justify-between p-5">
                     <p className="text-black font-extrabold text-xl">
                       Projects
                     </p>
-                    <p className="text-sky-500 font-extrabold text-lg">View all</p>
+                    <p className="text-sky-500 font-extrabold text-lg">
+                      View all
+                    </p>
                   </div>
-                  <div className="bottom_left w-full flex">
+                  <div className="bottom_left w-full h-[500px] flex">
                     <div className="left p-1 w-6/12 text-black">
                       <div className="left_data  mt-3.5 bg-white h-[125px] rounded-md  w-full">
                         <div className="up flex p-4">
-                          <img alt="data_icon" className="w-[65px] rounded-lg m-1 border border-sky-500  h-[60px]" src="https://img.freepik.com/premium-photo/3d-icon-polaroid-camera-3d-illustration-3d-element-3d-rendering-graphic-elements-design_808921-654.jpg?w=1380" />
-                          <div className="texts" >
+                          <img
+                            alt="data_icon"
+                            className="w-[65px] rounded-lg m-1 border border-sky-500  h-[60px]"
+                            src="https://img.freepik.com/premium-photo/3d-icon-polaroid-camera-3d-illustration-3d-element-3d-rendering-graphic-elements-design_808921-654.jpg?w=1380"
+                          />
+                          <div className="texts">
                             <span className="text-stone-500">892578295s</span>
-                            <p className="font-bold text-lg">Medical App(ios Navite)</p>
+                            <p className="font-bold text-lg">
+                              Medical App(ios Navite)
+                            </p>
                           </div>
                         </div>
                         <div className="bottom flex pb-1 ml-2 text-black">
-                          <img className="w-[20px]" alt="calend_icon" src="icons/png/calender.png" />
+                          <img
+                            className="w-[20px]"
+                            alt="calend_icon"
+                            src="icons/png/calender.png"
+                          />
                           <p>2030/12/32 | 12:32</p>
                         </div>
                       </div>
-                      <div className="left_data  mt-3.5 bg-white h-[125px] rounded-md  w-full">
+                      <div className="left_data   mt-3.5 bg-white h-[125px] rounded-md  w-full">
                         <div className="up flex p-4">
-                          <img alt="data_icon" className="w-[65px] rounded-lg m-1  h-[60px]" src="https://img.freepik.com/free-photo/red-roses-by-window-brought-touch-romance-room-generative-ai_8829-2925.jpg?w=900&t=st=1711574967~exp=1711575567~hmac=f43e3697deb16ff116ed156e2e59c665c5a93d645a5038e66895838ea75bf643" />
-                          <div className="texts" >
+                          <img
+                            alt="data_icon"
+                            className="w-[65px] rounded-lg m-1  h-[60px]"
+                            src="https://img.freepik.com/free-photo/red-roses-by-window-brought-touch-romance-room-generative-ai_8829-2925.jpg?w=900&t=st=1711574967~exp=1711575567~hmac=f43e3697deb16ff116ed156e2e59c665c5a93d645a5038e66895838ea75bf643"
+                          />
+                          <div className="texts">
                             <span className="text-stone-500">892578295s</span>
-                            <p className="font-bold text-lg">Food Delivery Service</p>
+                            <p className="font-bold text-lg">
+                              Food Delivery Service
+                            </p>
                           </div>
                         </div>
                         <div className="bottom flex pb-1 ml-2 text-black">
-                          <img className="w-[20px]" alt="calend_icon" src="icons/png/calender.png" />
+                          <img
+                            className="w-[20px]"
+                            alt="calend_icon"
+                            src="icons/png/calender.png"
+                          />
                           <p>2030/12/32 | 12:32</p>
                         </div>
                       </div>
                       <div className="left_data  mt-3.5 bg-white h-[125px] rounded-md  w-full">
                         <div className="up flex  p-4">
-                          <img alt="data_icon" className="w-[65px] rounded-lg  m-1 h-[60px]" src="https://img.freepik.com/free-photo/picture-with-drawing-man-s-face_1122-1031.jpg?t=st=1711575125~exp=1711578725~hmac=b827b81a7e052f3177b2edd6d8177d0b89103e12bd75d2841291acf146e59fff&w=900" />
-                          <div className="texts" >
+                          <img
+                            alt="data_icon"
+                            className="w-[65px] rounded-lg  m-1 h-[60px]"
+                            src="https://img.freepik.com/free-photo/picture-with-drawing-man-s-face_1122-1031.jpg?t=st=1711575125~exp=1711578725~hmac=b827b81a7e052f3177b2edd6d8177d0b89103e12bd75d2841291acf146e59fff&w=900"
+                          />
+                          <div className="texts">
                             <span className="text-stone-500">892578295s</span>
-                            <p className="font-bold text-lg">Food deliverry Service </p>
+                            <p className="font-bold text-lg">
+                              Food deliverry Service{" "}
+                            </p>
                           </div>
                         </div>
                         <div className="bottom flex pb-1 ml-2 text-black">
-                          <img className="w-[20px]" alt="calend_icon" src="icons/png/calender.png" />
+                          <img
+                            className="w-[20px]"
+                            alt="calend_icon"
+                            src="icons/png/calender.png"
+                          />
                           <p>2030/12/32 | 12:32</p>
                         </div>
                       </div>
@@ -239,9 +271,11 @@ export default function Home() {
                     <div className="right w-6/12 text-black p-1">
                       <div className="right_data mt-3.5 bg-white h-[125px] rounded-md ">
                         <div className="up">
-                          <p className="font-bold text-xl p-3 ">Projects Data</p>
+                          <p className="font-bold text-xl p-3 ">
+                            Projects Data
+                          </p>
                         </div>
-                        <div className="bottom flex p-4 ">
+                        <div className="bottom flex  ">
                           <div className="data_inner_1 p-3">
                             <p className="text-stone-500">All Taksks</p>
                             <span className="font-bold">34</span>
@@ -254,9 +288,11 @@ export default function Home() {
                       </div>
                       <div className="right_data mt-3.5 bg-white h-[125px] rounded-md">
                         <div className="up">
-                          <p className="font-bold text-xl p-3 ">Projects Data</p>
+                          <p className="font-bold text-xl p-3 ">
+                            Projects Data
+                          </p>
                         </div>
-                        <div className="bottom flex p-4">
+                        <div className="bottom flex ">
                           <div className="data_inner_1 p-3">
                             <p className="text-stone-500">All Taksks</p>
                             <span className="font-bold">34</span>
@@ -269,9 +305,11 @@ export default function Home() {
                       </div>
                       <div className="right_data mt-3.5 bg-white h-[125px] rounded-md">
                         <div className="up">
-                          <p className="font-bold text-xl p-3 ">Projects Data</p>
+                          <p className="font-bold text-xl p-3 ">
+                            Projects Data
+                          </p>
                         </div>
-                        <div className="bottom flex p-4">
+                        <div className="bottom flex ">
                           <div className="data_inner_1 p-3">
                             <p className="text-stone-500">All Taksks</p>
                             <span className="font-bold">34</span>
@@ -286,20 +324,51 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="bottom_start_right">
-                <div className="right_start">
+              <div className="bottom_start_right h-[500px]  p-5 ">
+                <div className="right_start bg-white h-[468px] w-[330px] rounded-3xl  ">
                   <div className="right_inner">
                     <div className="upper_txt_start">
-                      <p className="text-black font-bold">Activity Stream</p>
+                      <p className="text-black font-bold text-xl p-3">
+                        Activity Stream
+                      </p>
                     </div>
-                    <div className="profile">
-                      <img alt="prof_photo" src="" />
-                      <p>Oscar Heorway</p>
+                    <div className="profile flex items-center">
+                      <img
+                        className="w-[70px] h-[70px]  rounded-full"
+                        alt="prof_photo"
+                        src="https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1713225600&semt=sph"
+                      />
+                      <div className="prof_text">
+                        <p className="text-black">Oscar Heorway</p>
+                        <span className="text-slate-400">UI/Ux Designer</span>
+                      </div>
                     </div>
-                    <div className="upload">
-                      <img alt="downaload" src="" />
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                      <p></p>
+                    <div className="upload flex bg-sky-200">
+                      <img alt="upload " src="icons/png/upload.png" />
+                      <p className="text-black ">
+                        update the state of Mind Map task to in progress{" "}
+                      </p>
+                    </div>
+                    <div className="attach flex bg-sky-200">
+                      <img src="icons/png/attach.png" alt="attach_icon" />
+                      <p className="text-black">Attached files to the task</p>
+                    </div>
+                    <div className="profile_2 flex text-black">
+                      <img
+                        className="w-[70px] h-[70px]  rounded-full "
+                        src="https://img.freepik.com/premium-photo/woman-black-suit-stands-front-window-with-her-arms-crossed_800563-6287.jpg"
+                        alt="prof_woman_picture"
+                      />
+                      <div className="texts">
+                        <p>Emily Tailor</p>
+                        <span className="text-slate-400">copy writer</span>
+                      </div>
+                    </div>
+                    <div className="upload flex bg-sky-200">
+                      <img alt="upload " src="icons/png/upload.png" />
+                      <p className="text-black ">
+                        update the state of Mind Map task to in progress{" "}
+                      </p>
                     </div>
                   </div>
                 </div>
