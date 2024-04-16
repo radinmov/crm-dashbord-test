@@ -325,49 +325,49 @@ export default function Home() {
                 </div>
               </div>
               <div className="bottom_start_right h-[500px]  p-5 ">
-                <div className="right_start bg-white h-[468px] w-[330px] rounded-3xl  ">
+                <div className="right_start bg-white h-[468px] w-[330px] text-black rounded-3xl  ">
                   <div className="right_inner">
                     <div className="upper_txt_start">
-                      <p className="text-black font-bold text-xl p-3">
+                      <p className="font-bold text-xl p-3">
                         Activity Stream
                       </p>
                     </div>
                     <div className="profile flex items-center">
                       <img
-                        className="w-[70px] h-[70px]  rounded-full"
+                        className="w-[70px] h-[70px] rounded-full"
                         alt="prof_photo"
                         src="https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1713225600&semt=sph"
                       />
-                      <div className="prof_text">
-                        <p className="text-black">Oscar Heorway</p>
+                      <div className="prof_text p-2">
+                        <p>Oscar Heorway</p>
                         <span className="text-slate-400">UI/Ux Designer</span>
                       </div>
                     </div>
-                    <div className="upload flex bg-sky-200">
-                      <img alt="upload " src="icons/png/upload.png" />
-                      <p className="text-black ">
-                        update the state of Mind Map task to in progress{" "}
+                    <div className="upload p-3 w-[300px] flex rounded-xl bg-sky-200">
+                      <img alt="upload w-[30px] " src="icons/png/upload.png" />
+                      <p>
+                        update the state of Mind Map task to in progress
                       </p>
                     </div>
-                    <div className="attach flex bg-sky-200">
-                      <img src="icons/png/attach.png" alt="attach_icon" />
-                      <p className="text-black">Attached files to the task</p>
+                    <div className="attach h-[50px] flex items-center bg-sky-200 rounded-xl w-[300px]">
+                      <img className="w-[30px]" src="icons/png/attach.png" alt="attach_icon" />
+                      <p>Attached files to the task</p>
                     </div>
-                    <div className="profile_2 flex text-black">
+                    <div className="profile_2 p-3 flex">
                       <img
-                        className="w-[70px] h-[70px]  rounded-full "
+                        className="w-[70px] h-[70px] rounded-full"
                         src="https://img.freepik.com/premium-photo/woman-black-suit-stands-front-window-with-her-arms-crossed_800563-6287.jpg"
                         alt="prof_woman_picture"
                       />
-                      <div className="texts">
+                      <div className="prof_texts p-3">
                         <p>Emily Tailor</p>
                         <span className="text-slate-400">copy writer</span>
                       </div>
                     </div>
-                    <div className="upload flex bg-sky-200">
+                    <div className="upload p-3 w-[300px] flex rounded-xl bg-sky-200">
                       <img alt="upload " src="icons/png/upload.png" />
-                      <p className="text-black ">
-                        update the state of Mind Map task to in progress{" "}
+                      <p>
+                        update the state of Mind Map task to in progress
                       </p>
                     </div>
                   </div>
